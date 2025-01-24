@@ -1,0 +1,8 @@
+mutation {
+    changeUserStatus(input: { message: "HeartRate=70", limitedAvailability: true }) {
+        status {
+            message
+            indicatesLimitedAvailability
+        }
+    }
+}
