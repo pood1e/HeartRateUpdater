@@ -13,6 +13,7 @@
 .externalNativeBuild
 .cxx
 local.properties
-gradle
+gradle/wrapper
+!/gradle/libs.versions.toml
 .idea
 .kotlin
